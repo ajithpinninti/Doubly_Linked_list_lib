@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <string.h>
 int check(int* a){
     if(!a)
         return -1;
@@ -10,10 +10,11 @@ int check(int* a){
 
 int main(void){
 
-    int a = 9;
-    int* check_int = &a ;
+    char str[] = "HIII" ;
 
-    printf("%d \n",check(check_int));
+    strcpy(str,"AAA");
+
+    printf("%s \n",str);
 
 
 
