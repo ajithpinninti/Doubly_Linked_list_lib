@@ -31,6 +31,7 @@ void print_dll_db(dll_t*dll){
         head = head->right;
         
     }
+    printf("Completed");
 
 
     return;
